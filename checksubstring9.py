@@ -1,9 +1,6 @@
-def check(string, sub_str):
-    if (string.find(sub_str) == -1):
-        print("NO")
-    else:
-        print("YES")
-        
-        string="geeks for geeks"
-        sub_str="geek"
-        check(string, sub_str)
+string = input("Enter string:")
+sub_str = input("Enter word:")
+if(sub_str in string):
+      print("Substring in string!")
+else:
+      print("Substring not found in string!")
